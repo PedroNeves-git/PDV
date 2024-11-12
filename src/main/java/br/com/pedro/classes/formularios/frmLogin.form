@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.pedro.classes.formularios.frmLogin">
+  <grid id="27dc6" binding="pLogin" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="358" height="244"/>
+    </constraints>
+    <properties>
+      <background color="-10511331"/>
+      <inheritsPopupMenu value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8b727" class="javax.swing.JLabel" binding="lblUsuario">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="14" style="3"/>
+          <foreground color="-196613"/>
+          <text value="Usuário"/>
+        </properties>
+      </component>
+      <component id="f679a" class="javax.swing.JLabel" binding="lblSenha">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="15" style="3"/>
+          <foreground color="-196613"/>
+          <text value="Senha"/>
+        </properties>
+      </component>
+      <component id="2931" class="javax.swing.JPasswordField" binding="pfSenha">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="*****"/>
+        </properties>
+      </component>
+      <component id="11362" class="javax.swing.JTextField" binding="tfLogin">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="90dd7" class="javax.swing.JButton" binding="btnSair">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-389632"/>
+          <foreground color="-15628315"/>
+          <text value="SAIR"/>
+        </properties>
+      </component>
+      <component id="fc7bf" class="javax.swing.JButton" binding="btnLogin">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="2.9" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-7537989"/>
+          <foreground color="-15628315"/>
+          <horizontalTextPosition value="2"/>
+          <text value="LOGIN"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+      </component>
+      <component id="60d9d" class="javax.swing.JButton" binding="btnCadastro">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16773126"/>
+          <foreground color="-15628315"/>
+          <text value="CADASTRO"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
